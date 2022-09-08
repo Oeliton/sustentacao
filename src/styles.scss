@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+$background-color: #252525 !important;
+$font-color: #fff !important;
+
+body {
+  background-image: url("./assets/img/sistema.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.titulo {
+  background-color: $background-color;
+  color: $font-color;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fundo-branco{
+  background-color: rgb(255, 255, 255);
+  color: #111;
+}
+
+.fundo-amarelo{
+  background-color: rgb(194, 231, 27);
+  color: #111;
+}
+
